@@ -39,15 +39,30 @@ a {
 	color: #0088cc;
 }
 
+a:hover {
+	text-decoration:none;
+}
+
 .topbar a:hover {
 	background-color:#F4F4F4;
-	font-size:14.5px;
 	vertical-align:middle;
 	text-decoration:none;
 }
 
 body {
-	/*font-family: 'goudy old style', 'minion pro', 'bell mt', Georgia, 'Hiragino Mincho Pro';*/
+	font-family: 'goudy old style', 'minion pro', 'bell mt', Georgia, 'Hiragino Mincho Pro', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Avenir LT W01 85 Heavy", "Avenir LT W01 45 Book", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+p {
+	font-size: 16px;
+}
+
+.lead {
+	font-size: 23px;
 }
 
 hr { 
@@ -63,6 +78,10 @@ hr {
 }
 
 /* Social Buttons */
+.social-buttons {
+	margin-top: 5%;
+}
+
 .social-icon {
 	color: #0088cc;
 }
@@ -78,22 +97,26 @@ hr {
 	text-decoration:none;
 }
 
-/* section coloring */
+/* section outlining */
 .home-container {
-	background: #FFFFFF;
+	/*background: #FFFFFF;*/
 	text-align: center;
-	padding: 80px 80px 80px 80px;
+	padding: 80px 80px 50px 80px;
 }
 
 .projects-container {
-	padding: 20px 35px 0px 35px;
-	background: #F4F4F4;
+	padding: 20px 35px 35px 35px;
+	/*background: #F4F4F4;*/
+}
+
+footer {
+	padding: 20px 50px 20px 50px;
 }
 
 body {
-	/*background: url(../img/brillant.png);
+	background: url(../img/brillant.png);
 	background-position: initial initial;
-	background-repeat: initial initial;*/
+	background-repeat: initial initial;
 	padding-top: 80px;
 }
 
@@ -111,6 +134,7 @@ body {
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
+	height: 160px;
 }
 
 
@@ -118,7 +142,58 @@ body {
 	margin-top: 2%;
 }
 
+.project-photo-wrapper {
+	display: table;
+    height: 100%;
+    width: 100%;
+    padding-top: 15%;
+}
+
+.project-photo-wrapper.mobile {	
+    padding-top: 8%;
+}
+
 .project-photo {
-	max-width: 90%;
-	max-height: 90%;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    /* add border to image */
+    padding:1px;
+    border:1px solid #E6E5E5;
+}
+
+.large-project-photo {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	/* add border to image */
+    padding:1px;
+    border:1px solid #E6E5E5;
+}
+
+.project-photo.mobile {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 45%;
+	width: 45%;
+}
+
+.large-project-photo.mobile {
+	margin-right: auto;
+	margin-left: 55px;
+	max-width: 25%;
+	width: 25%;
+}
+
+
+.image-modal {
+	left: 35%;
+	width: 75%;
+}
+
+.image-modal.fade.in {
+	top: 17%;
 }

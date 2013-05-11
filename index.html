@@ -34,8 +34,8 @@
 				</div>
 				<div class="center social-buttons">
 					<a href="http://www.linkedin.com/in/btreskunov"> <i class="icon-linkedin-sign icon-3x social-icon middle"></i></a>
-					<a href="http://twitter.com/btreskunov"> <i class="icon-twitter icon-3x social-icon middle"></i></a>
 					<a href="http://github.com/borist"> <i class="icon-github icon-3x social-icon middle"></i></a>
+					<a href="http://twitter.com/btreskunov"> <i class="icon-twitter icon-3x social-icon middle"></i></a>
 					<a href="mailto:treskunov.boris@gmail.com"> <i class="icon-envelope-alt icon-3x social-icon"></i></a>
 				</div>
 			</div>
@@ -49,97 +49,233 @@
 			<div class="projects-container">
 				<hr>
 
+				<!-- First row of projects -->
 				<div class="row-fluid">
+					<!-- Penn Cab -->
 					<div class="span6">
 						<div id="penncab" class="project-wrapper">
 							<div class="row-fluid">
 								<div class="span8">
-									<h2>PennCab</h2>
+									<a href="http://penncab.herokuapp.com/cabrides/"><h3>PennCab</h3></a>
 								<p class="project-description">
 									A web app that allows Penn students to sign up to share cab rides with one another. Users can create, manage, and join cab rides that are under capacity and in the future. Created using Python and Django.
 								</p>
 								</div>
-								<div class="span4 ">
-									<img src="img/pennmeet-home.png" class="project-photo"></img>
+								<div class="span4">
+									<div class="project-photo-wrapper">
+										<a href="#penncab-image-modal" role="button" data-toggle="modal">										<img src="img/penncab_preview.png" class="project-photo"></img></a>
+
+										<div id="penncab-image-modal" class="modal image-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										  		<div class="modal-header">
+											    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											    <h4 id="myModalLabel">Preview of PennCab</h4>
+											  </div>
+											  <div class="modal-body">
+												<img src="img/penncab_preview.png" class="large-project-photo"></img>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+
+					<!-- Financial Options Graphing -->
+					<div class="span6">
+						<div id="options-graphing" class="project-wrapper">
+							<div class="row-fluid">
+								<div class="span8">
+									<a href="http://borist.github.io/optionsgraphing/"><h3>Options Graphing</h3></a>
+								<p class="project-description">
+									A web app for graphing financial options and their underlying assets. Can be used to construct derivatives using a number of assets and graph their combined payoff. Useful when learning about financial derivatives. 
+									
+								</p>
+								</div>
+								<div class="span4">
+									<div class="project-photo-wrapper">
+										<a href="#options-image-modal" role="button" data-toggle="modal">										<img src="img/options_preview.png" class="project-photo"></img></a>
+
+										<div id="options-image-modal" class="modal image-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										  		<div class="modal-header">
+											    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											    <h4 id="myModalLabel">Preview of Financial Options Graphing</h4>
+											  </div>
+											  <div class="modal-body">
+												<img src="img/options_preview.png" class="large-project-photo"></img>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Second row of projects -->
+				<div class="row-fluid">
+					<!-- WineSquare -->
+					<div class="span6">
+						<div id="winesquare" class="project-wrapper">
+							<div class="row-fluid">
+								<div class="span8">
+									<a class="broken-project-link" data-toggle="popover"><h3>Winesquare</h3></a>
+								<p class="project-description">
+									A "<a href="https://foursquare.com">Foursquare</a> for wine" web application for avid wine drinkers. Users can "check in" when they drink a certian wine, view other users' drink histories, and receive recommendations based on their past check ins. Created with PHP, MySQL, and JQuery.
+								</p>
+								</div>
+								<div class="span4">
+									<div class="project-photo-wrapper">
+										<a href="#winesquare-image-modal" role="button" data-toggle="modal">										<img src="img/winesquare_preview.png" class="project-photo"></img></a>
+
+										<div id="winesquare-image-modal" class="modal image-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										  		<div class="modal-header">
+											    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											    <h4 id="myModalLabel">Preview of WineSquare</h4>
+											  </div>
+											  <div class="modal-body">
+												<img src="img/winesquare_preview.png" class="large-project-photo"></img>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- EventSnap -->
+					<div class="span6">
+						<div id="eventsnap" class="project-wrapper">
+							<div class="row-fluid">
+								<div class="span8">
+									<a href="https://github.com/borist/EventSnap/"><h3>EventSnap</h3></a>
+								<p class="project-description">
+									An Android application that lets you take a photo of an event poster, and have it automatically added to your phone's calendar using Optical Character Recognition. Created at HackNY Spring Hackathon 2012.
+								</p>
+								</div>
+								<div class="span4">
+									<div class="project-photo-wrapper mobile">
+										<a href="#pennmeet-image-modal" role="button" data-toggle="modal">										<img src="img/pennmeet_preview.png" class="project-photo mobile"></img></a>
+
+										<div id="pennmeet-image-modal" class="modal image-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										  		<div class="modal-header">
+											    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											    <h4 id="myModalLabel">Preview of PennMeet</h4>
+											  </div>
+											  <div class="modal-body">
+												<img src="img/pennmeet_preview.png" class="large-project-photo mobile"></img>
+												<img src="img/pennmeet_groups.png" class="large-project-photo mobile"></img>
+												<img src="img/pennmeet_group.png" class="large-project-photo mobile"></img>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Third row of projects -->
+				<div class="row-fluid">
+					<!-- PennBook -->
 					<div class="span6">
 						<div id="pennbook" class="project-wrapper">
 							<div class="row-fluid">
 								<div class="span8">
-									<h2>PennBook</h2>
-									<p class="project-description"></p>
+									<a class="broken-project-link" data-toggle="popover"><h3>PennBook</h3></a>
+								<p class="project-description">
+									Blah blah blah description. Created using GWT, Amazon EC2, and Amazon Elastic Map Reduce. 
+								</p>
 								</div>
-								<div class="span4 ">
+								<div class="span4">
+									<div class="project-photo-wrapper">
+										<a href="#pennbook-image-modal" role="button" data-toggle="modal">										<img src="img/pennbook_preview.png" class="project-photo"></img></a>
 
+										<div id="pennbook-image-modal" class="modal image-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+											<div class="modal-header">
+											    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											    <h4 id="myModalLabel">Preview of PennBook</h4>
+											  </div>
+											  <div class="modal-body">
+												<img src="img/pennbook_preview.png" class="large-project-photo"></img>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- PennMeet -->
+					<div class="span6">
+						<div id="pennmeet" class="project-wrapper">
+							<div class="row-fluid">
+								<div class="span8">
+									<a href="https://github.com/borist/PennMeet/"><h3>PennMeet</h3></a>
+								<p class="project-description">
+									Created to "take the suck out of club list-servs," an Android app that provides cloud-based club management. Users can easily create, add, join, and share groups. Created at PennApps Fall Hackathon 2011.
+								</p>
+								</div>
+								<div class="span4">
+									<div class="project-photo-wrapper mobile">
+										<a href="#pennmeet-image-modal" role="button" data-toggle="modal">										<img src="img/pennmeet_preview.png" class="project-photo mobile"></img></a>
+
+										<div id="pennmeet-image-modal" class="modal image-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										  		<div class="modal-header">
+											    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											    <h4 id="myModalLabel">Preview of PennMeet</h4>
+											  </div>
+											  <div class="modal-body">
+												<img src="img/pennmeet_preview.png" class="large-project-photo mobile"></img>
+												<img src="img/pennmeet_groups.png" class="large-project-photo mobile"></img>
+												<img src="img/pennmeet_group.png" class="large-project-photo mobile"></img>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div id="pennmeet" class="project-wrapper">
-					<div class="row-fluid">
-						<div class="span8">
-							<h1>PennMeet</h1>
-							<p class="project-description">
-								Created to "take the suck out of club list-servs," PennMeet provides cloud-based club management. Users can easily create, add, and share groups, either by scanning a unique QR Code or through <a href="http://bu.mp">Bump</a>. Additionally, you can see the profile of any club you join, as well as the user profiles of other people in the club with you!</p>
-						</div>
-						<div class="span4 ">
-							<img src="img/pennmeet-home.png" class=""></img>
+				<!-- Fourth row of projects -->
+				<div class="row-fluid">
+					<!-- SafeMode -->
+					<div class="span6">
+						<div id="safemode" class="project-wrapper">
+							<div class="row-fluid">
+								<div class="span8">
+									<a href="https://play.google.com/store/apps/details?id=com.teamPrime.sml"><h3>SafeMode</h3></a>
+								<p class="project-description">
+								SafeMode stops you from interacting with specified contacts when you don't want to. It temporarily removes all blacklisted contacts from your phone and blocks outgoing and incoming calls/messages to or from their numbers.
+							</p>
+								</div>
+								<div class="span4">
+									<div class="project-photo-wrapper mobile">
+										<a href="#safemode-image-modal" role="button" data-toggle="modal">										<img src="img/safemode_on.png" class="project-photo mobile"></img></a>
 
+										<div id="safemode-image-modal" class="modal image-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										  		<div class="modal-header">
+											    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											    <h4 id="myModalLabel">Preview of SafeMode</h4>
+											  </div>
+											  <div class="modal-body">
+												<img src="img/safemode_on.png" class="large-project-photo mobile"></img>
+												<img src="img/safemode_blacklist.png" class="large-project-photo mobile"></img>
+												<img src="img/safemode_blocked.png" class="large-project-photo mobile"></img>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div id="winesquare" class="project-wrapper">
-					<div class="row-fluid">
-						<div class="span8">
-							<h1>WineSquare</h1>
-							
-						</div>
-						<div class="span4 ">
-							
-						</div>
-					</div>
-				</div>
-				<div id="safemode" class="project-wrapper">
-					<div class="row-fluid">
-						<div class="span8">
-							<h1>SafeMode</h1>
-							
-						</div>
-						<div class="span4 ">
-							
-						</div>
-					</div>
-				</div>
-				<div id="eventsnap" class="project-wrapper">
-					<div class="row-fluid">
-						<div class="span8">
-							<h1>EventSnap</h1>
-							
-						</div>
-						<div class="span4 ">
-							
-						</div>
-					</div>
-				</div>
-				<div id="optionsgraphing" class="project-wrapper">
-					<div class="row-fluid">
-						<div class="span8">
-							<h1>Financial Options Graphing</h1>
-							
-						</div>
-						<div class="span4 ">
-							
-						</div>
-					</div>
-				</div>
-			</div>
 		</section>
 
+	<footer>
+		<hr>
+        <p>Created by Boris Treskunov</p>
+      </footer>
 	</div>
 
 	<script src="./js/jquery.js"></script>
@@ -150,6 +286,11 @@
                     	'selector': '',
                         'placement': 'bottom'
                 });
+                $(".broken-project-link").popover({
+                	'placement': 'top',
+                	'title': "I'm Sorry",
+                	'content': "Unfortunately, the code for this project isn't open source yet, and the current project page is down. If you would like to learn more about the project, please feel free to contact me."
+                });  
             });
     </script>
 	</body>
