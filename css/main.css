@@ -69,6 +69,10 @@ p {
 	font-size: 23px;
 }
 
+.lead h1 {
+	margin-bottom:40px;
+}
+
 hr { 
 	display: block; 
 	height: 2px;
@@ -109,17 +113,47 @@ hr {
 .home-container {
 	/*background: #FFFFFF;*/
 	text-align: center;
-	padding: 100px 80px 10px 80px;
+	padding: 100px 80px 40px 80px;
 }
 
 .projects-container {
 	/*background: #F4F4F4;*/
 	text-align: center;
-	padding: 60px 35px 35px 35px;
+	padding: 30px 35px 65px 35px;
 }
 
 .projects-container .lead {
-	margin: 40px 200px 0px 200px;
+	margin: 60px 200px 0px 200px;
+}
+
+.about-container {
+	/*background: #F4F4F4;*/
+	text-align: center;
+	padding: 0px 35px 35px 35px;
+}
+
+.about-container .lead {
+	margin: 60px 0px 0px 0px;
+}
+
+
+.two-column-text {
+	-webkit-columns: 20em 2;
+	-moz-columns: 20em 2;
+	-ms-columns: 20em 2;
+	-o-columns: 20em 2;
+	columns: 20em 2;
+	-webkit-column-gap: 20px;
+	-moz-column-gap: 20px;
+	-ms-column-gap: 20px;
+	-o-column-gap: 20px;
+	column-gap: 20px;
+	padding: 0px 80px;
+}
+
+.two-column-text p {
+	line-height: 1.5;
+	font-size: 23px;
 }
 
 footer {
