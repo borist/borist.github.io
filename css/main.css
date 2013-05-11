@@ -1,3 +1,8 @@
+/* 
+	blue:						#0098f0
+	other possibily, lighter:	#00a8f0
+*/
+
 .center {
 	margin-right: auto;
 	margin-left: auto;
@@ -36,11 +41,11 @@
 }
 
 .topbar-icon {
-	color: #0088cc;
+	color: #0098f0;
 }
 
 a {
-	color: #0088cc;
+	color: #0098f0;
 }
 
 a:hover {
@@ -48,9 +53,14 @@ a:hover {
 }
 
 .topbar a:hover {
-	background-color:#F4F4F4;
+	/*background-color:#F4F4F4;*/
 	vertical-align:middle;
 	text-decoration:none;
+}
+
+::selection {
+	color: #FFF;
+	background-color: #0098f0;
 }
 
 body {
@@ -77,7 +87,7 @@ hr {
 	display: block; 
 	height: 2px;
     border: 0; 
-    border-top: 2px solid #0088cc;
+    border-top: 2px solid #0098f0;
     margin: 1em 0; 
     padding: 0; 
     width:25%;
@@ -91,7 +101,7 @@ hr {
 }
 
 .social-icon {
-	color: #0088cc;
+	color: #0098f0;
 }
 
 .social-icon.middle{
