@@ -147,24 +147,25 @@ hr {
 }
 
 
-.two-column-text {
-	-webkit-columns: 20em 2;
+.about-blurb {
+	/*-webkit-columns: 20em 2;
 	-moz-columns: 20em 2;
 	-ms-columns: 20em 2;
 	-o-columns: 20em 2;
 	columns: 20em 2;
-	-webkit-column-gap: 20px;
-	-moz-column-gap: 20px;
-	-ms-column-gap: 20px;
-	-o-column-gap: 20px;
-	column-gap: 20px;
-	padding: 0px 80px;
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	-ms-column-gap: 30px;
+	-o-column-gap: 30px;
+	column-gap: 30px;
+	padding: 0px 80px;*/
 }
 
-.two-column-text p {
+.about-blurb p {
+	margin-right: 50px;
+	margin-left: 50px;
 	line-height: 1.5;
 	font-size: 23px;
-	text-align: left;
 }
 
 footer {
