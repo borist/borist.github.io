@@ -1,4 +1,4 @@
-/* 
+/*
 	blue:						#0098f0
 	other possibily, lighter:	#00a8f0
 */
@@ -27,7 +27,7 @@
 }
 
 .topbar .nav {
-	padding: 0px 21px 21px 21px;
+	padding: 0 21px 21px 21px;
 }
 
 .topbar .nav.right {
@@ -84,13 +84,13 @@ p {
 	margin-bottom:40px;
 }
 
-hr { 
-	display: block; 
+hr {
+	display: block;
 	height: 2px;
-    border: 0; 
+    border: 0;
     border-top: 2px solid #0098f0;
-    margin: 1em 0; 
-    padding: 0; 
+    margin: 1em 0;
+    padding: 0;
     width:25%;
 	margin-right: auto;
 	margin-left: auto;
@@ -134,21 +134,22 @@ hr {
 
 .projects-container .lead {
 	text-align: center;
-	margin: 60px 200px 0px 200px;
+	margin: 60px 200px 0 200px;
 }
 
 .about-container {
 	/*background: #F4F4F4;*/
-	padding: 0px 35px 35px 35px;
+	padding: 0 35px 35px 35px;
 }
 
 .about-container .lead {
 	text-align: center;
-	margin: 60px 0px 0px 0px;
+	margin: 60px 0 0 0;
 }
 
 
 .about-blurb {
+	/* uncomment below for 2-columns */
 	/*-webkit-columns: 20em 2;
 	-moz-columns: 20em 2;
 	-ms-columns: 20em 2;
@@ -159,7 +160,7 @@ hr {
 	-ms-column-gap: 30px;
 	-o-column-gap: 30px;
 	column-gap: 30px;
-	padding: 0px 80px;*/
+	padding: 0 80px;*/
 }
 
 .about-blurb p {
@@ -182,17 +183,18 @@ body {
 
 .main {
 	position: relative;
-	padding-top: 0px;
+	padding-top: 0;
 }
 
 /* Project display css */
 .project-wrapper {
 	background: #FFFFFF;
 	border: 1px solid #ddd;
-	margin: 30px 0px 0px 0px;
+	margin: 30px 0 0 0;
 	padding: 10px 20px 10px 20px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
 	border-radius: 4px;
 	height: 160px;
 	overflow: hidden;
@@ -210,7 +212,7 @@ body {
     padding-top: 15%;
 }
 
-.project-photo-wrapper.mobile {	
+.project-photo-wrapper.mobile {
     padding-top: 8%;
 }
 
